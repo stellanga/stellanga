@@ -1,0 +1,37 @@
+---
+import "../styles/reset.css";
+import "../styles/global.css";
+import Header from "../components/Header.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stellanga</title>
+  </head>
+  <body
+    class="flex flex-col h-screen bg-white dark:bg-gray-900 dark:text-gray-200"
+  >
+    <Header />
+    <div class="flex flex-col flex-grow items-center justify-center p-6">
+      <p class="pb-4 max-w-lg">
+        Hi, I’m Stellan, father-of-one that likes creating things for the web
+        (which I've been doing the last 10+ years or so). I see myself as a
+        creative developer since I'm closer to code than Van Gogh.
+      </p>
+      <p class="pb-4 max-w-lg">
+        I like drawing and math but isn’t especially good at either. I have
+        humour. I've done many parts of a modern (and not so modern) frontend so
+        I've had reasons to both celebrate and despair.
+      </p>
+      <p class="max-w-lg">
+        I'm currently working as a developer at <a
+          href="https://www.lassie.co"
+          target="_blank"
+          class="text-orange-300">Lassie</a
+        > in Stockholm, Sweden.
+      </p>
+    </div>
+  </body>
+</html>
